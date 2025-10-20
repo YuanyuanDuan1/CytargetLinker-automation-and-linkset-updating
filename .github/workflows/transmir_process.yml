@@ -16,10 +16,19 @@ jobs:
         with:
           r-version: '4.3.1'
           
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+          
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c("dplyr", "readr", "BiocManager"), repos="https://cloud.r-project.org")'
-          Rscript -e 'BiocManager::install(c("biomaRt", "miRBaseConverter"), ask = FALSE, update = FALSE)'
+          Rscript -e 'BiocManager::install("biomaRt", ask = FALSE, update = FALSE)'
+          
+      - name: Verify biomaRt installation
+        run: |
+          Rscript -e 'library(biomaRt); cat("biomaRt version:", as.character(packageVersion("biomaRt")), "\n")'
           
       - name: Filter Human and Mouse Data
         run: |
@@ -66,8 +75,10 @@ jobs:
           # Assuming column 1 contains miRNA accession (adjust if different)
           accession_col <- 1
           unique_accessions <- unique(human_data[[accession_col]])
+          cat("Found", length(unique_accessions), "unique human accessions\n")
           
           # Query BioMart for human
+          cat("Connecting to Ensembl BioMart for human...\n")
           ensembl_human <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
           human_results <- getBM(
             attributes = c("mirbase_accession", "mirbase_id", "hgnc_symbol"),
@@ -90,8 +101,10 @@ jobs:
                                 col_names = FALSE, show_col_types = FALSE)
           
           unique_accessions_mouse <- unique(mouse_data[[accession_col]])
+          cat("Found", length(unique_accessions_mouse), "unique mouse accessions\n")
           
           # Query BioMart for mouse
+          cat("Connecting to Ensembl BioMart for mouse...\n")
           ensembl_mouse <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
           mouse_results <- getBM(
             attributes = c("mirbase_accession", "mirbase_id", "mgi_symbol"),

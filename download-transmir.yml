@@ -1,4 +1,4 @@
-name: Download TransmiR Data
+name: Check and Download TransmiR Updates
 
 on:
   schedule:
@@ -7,51 +7,138 @@ on:
   workflow_dispatch: # Allows manual triggering for testing
 
 jobs:
-  download-transmir:
+  check-and-download:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Create data directory
-        run: mkdir -p data
-      
-      - name: Download TransmiR XLS files
+      - name: Install dependencies
         run: |
-          # Download literature-curated data
-          curl -L -o data/transmir_literature_curated.xls \
-            "http://www.cuilab.cn/files/data/TransmiR/literature/literature.xls"
+          sudo apt-get update
+          sudo apt-get install -y curl grep
+      
+      - name: Check CyTargetLinker version
+        id: cytargetlinker_version
+        run: |
+          # Fetch CyTargetLinker TransmiR page
+          CYTARGET_PAGE=$(curl -s https://cytargetlinker.github.io/pages/linksets/transmir.html)
           
-          # Download all TF-miRNA regulation data
-          curl -L -o data/transmir_all_regulations.xls \
-            "http://www.cuilab.cn/files/data/TransmiR/all/all.xls"
+          # Extract version from the page (looking for "TransmiR release X.X")
+          CYTARGET_VERSION=$(echo "$CYTARGET_PAGE" | grep -oP 'TransmiR release \K[0-9.]+' | head -1)
           
-          # Download predicted TF-miRNA regulation data
-          curl -L -o data/transmir_predicted.xls \
-            "http://www.cuilab.cn/files/data/TransmiR/predict/predict.xls"
+          if [ -z "$CYTARGET_VERSION" ]; then
+            echo "Could not find version on CyTargetLinker page"
+            CYTARGET_VERSION="1.2"  # fallback to known version
+          fi
           
-          # Add timestamp
-          echo "Downloaded on: $(date)" > data/download_timestamp.txt
+          echo "CyTargetLinker has TransmiR version: $CYTARGET_VERSION"
+          echo "version=$CYTARGET_VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Check TransmiR current version
+        id: transmir_version
+        run: |
+          # Fetch TransmiR website
+          TRANSMIR_PAGE=$(curl -s http://www.cuilab.cn/transmir)
+          
+          # Extract version from the page (looking for "TransmiR v3.0" or similar)
+          TRANSMIR_VERSION=$(echo "$TRANSMIR_PAGE" | grep -oP 'TransmiR v\K[0-9.]+' | head -1)
+          
+          if [ -z "$TRANSMIR_VERSION" ]; then
+            echo "Could not find version on TransmiR website"
+            exit 1
+          fi
+          
+          echo "TransmiR current version: $TRANSMIR_VERSION"
+          echo "version=$TRANSMIR_VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Compare versions
+        id: compare
+        run: |
+          CYTARGET_VER="${{ steps.cytargetlinker_version.outputs.version }}"
+          TRANSMIR_VER="${{ steps.transmir_version.outputs.version }}"
+          
+          echo "Comparing versions: CyTargetLinker=$CYTARGET_VER vs TransmiR=$TRANSMIR_VER"
+          
+          # Simple version comparison (convert to comparable numbers)
+          CYTARGET_NUM=$(echo $CYTARGET_VER | awk -F. '{printf "%d%03d%03d", $1, $2, $3}')
+          TRANSMIR_NUM=$(echo $TRANSMIR_VER | awk -F. '{printf "%d%03d%03d", $1, $2, $3}')
+          
+          if [ "$TRANSMIR_NUM" -gt "$CYTARGET_NUM" ]; then
+            echo "New version available! TransmiR $TRANSMIR_VER > CyTargetLinker $CYTARGET_VER"
+            echo "should_download=true" >> $GITHUB_OUTPUT
+          else
+            echo "No new version. TransmiR $TRANSMIR_VER <= CyTargetLinker $CYTARGET_VER"
+            echo "should_download=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Create data directory
+        if: steps.compare.outputs.should_download == 'true'
+        run: mkdir -p data/transmir
+      
+      - name: Download literature-curated data (Human and Mouse TXT)
+        if: steps.compare.outputs.should_download == 'true'
+        run: |
+          # Download human literature-curated TXT file
+          echo "Downloading human literature-curated data..."
+          curl -L -o data/transmir/human_literature_curated.txt \
+            "http://www.cuilab.cn/files/data/TransmiR/literature/Homo_sapiens.txt" || \
+            echo "Failed to download human data"
+          
+          # Download mouse literature-curated TXT file
+          echo "Downloading mouse literature-curated data..."
+          curl -L -o data/transmir/mouse_literature_curated.txt \
+            "http://www.cuilab.cn/files/data/TransmiR/literature/Mus_musculus.txt" || \
+            echo "Failed to download mouse data"
+          
+          # Add version and timestamp
+          echo "TransmiR Version: ${{ steps.transmir_version.outputs.version }}" > data/transmir/version.txt
+          echo "Downloaded on: $(date)" >> data/transmir/version.txt
+          echo "Previous CyTargetLinker version: ${{ steps.cytargetlinker_version.outputs.version }}" >> data/transmir/version.txt
       
       - name: List downloaded files
+        if: steps.compare.outputs.should_download == 'true'
         run: |
           echo "Downloaded files:"
-          ls -lh data/
+          ls -lh data/transmir/
+          echo ""
+          echo "File sizes:"
+          du -h data/transmir/*
       
       - name: Commit and push if files changed
+        if: steps.compare.outputs.should_download == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
-          git diff --staged --quiet || git commit -m "Update TransmiR data - $(date +'%Y-%m-%d')"
+          git add data/transmir/
+          git diff --staged --quiet || git commit -m "Update TransmiR data to v${{ steps.transmir_version.outputs.version }} - $(date +'%Y-%m-%d')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Upload artifacts
+        if: steps.compare.outputs.should_download == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: transmir-data-${{ github.run_number }}
-          path: data/
+          name: transmir-v${{ steps.transmir_version.outputs.version }}-${{ github.run_number }}
+          path: data/transmir/
           retention-days: 90
+      
+      - name: Create summary
+        run: |
+          echo "## TransmiR Version Check Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **CyTargetLinker version**: ${{ steps.cytargetlinker_version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **TransmiR current version**: ${{ steps.transmir_version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Download triggered**: ${{ steps.compare.outputs.should_download }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.compare.outputs.should_download }}" == "true" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Downloaded Files" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Human literature-curated data (TXT)" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Mouse literature-curated data (TXT)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ No update needed - CyTargetLinker is up to date" >> $GITHUB_STEP_SUMMARY
+          fi

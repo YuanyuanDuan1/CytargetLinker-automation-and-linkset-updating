@@ -67,34 +67,38 @@ jobs:
         if: steps.compare.outputs.should_download == 'true'
         shell: bash
         run: |
-          echo "Detecting latest TransmiR literature-curated data URL..."
+          set -euo pipefail
+          echo "🔍 Detecting latest TransmiR literature-curated data URL..."
 
-          # Fetch TransmiR page and try to find db_literaturev*.txt dynamically
-          DOWNLOAD_PAGE=$(curl -s http://www.cuilab.cn/transmir)
-          DOWNLOAD_URL=$(echo "$DOWNLOAD_PAGE" | grep -oP 'http://www\.cuilab\.cn/files/transmir[0-9]+/download/db_literaturev[0-9]+\.txt' | head -1)
+          # Fetch TransmiR HTML and try to detect db_literaturev*.txt
+          DOWNLOAD_PAGE=$(curl -fsSL http://www.cuilab.cn/transmir || true)
 
-          # Fallback if not found
-          if [[ -z "$DOWNLOAD_URL" ]]; then
-            echo "⚠️ Could not auto-detect download URL, using fallback..."
+          echo "✅ Fetched TransmiR page (size: ${#DOWNLOAD_PAGE} bytes)"
+          DOWNLOAD_URL=$(echo "$DOWNLOAD_PAGE" | grep -oE 'http://www\.cuilab\.cn/files/transmir[0-9]+/download/db_literaturev[0-9]+\.txt' | head -1 || true)
+
+          if [[ -z "${DOWNLOAD_URL:-}" ]]; then
+            echo "⚠️ Could not detect link automatically, using fallback."
             DOWNLOAD_URL="http://www.cuilab.cn/files/transmir3/download/db_literaturev3.txt"
           fi
 
           echo "📥 Downloading from: $DOWNLOAD_URL"
           mkdir -p data/transmir
 
-          # Download the data file (contains all species)
-          if ! curl -L -o data/transmir/db_literature_all_species.txt "$DOWNLOAD_URL"; then
-            echo "❌ Failed to download TransmiR data"
+          if ! curl -L -f -o data/transmir/db_literature_all_species.txt "$DOWNLOAD_URL"; then
+            echo "❌ Download failed from $DOWNLOAD_URL"
             exit 1
           fi
 
-          # Write metadata file safely (avoid YAML interpolation issues)
+          echo "✅ Download complete, writing metadata..."
           {
             echo "TransmiR Version: ${TRANS_VER}"
             echo "Downloaded on: $(date)"
             echo "Previous CyTargetLinker version: ${CYTARGET_VER}"
             echo "Source URL: ${DOWNLOAD_URL}"
           } > data/transmir/version.txt
+
+          echo "✅ Done. Files saved to data/transmir/"
         env:
           TRANS_VER: ${{ steps.transmir_version.outputs.version }}
           CYTARGET_VER: ${{ steps.cytargetlinker_version.outputs.version }}
+

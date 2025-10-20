@@ -1,0 +1,950 @@
+mirbase_accession	X2	X3	X4	X5	X6	X7	X8	X9
+Yy1	mmu-mir-181a	NA	NA	Repression	36413144	literature	AML12	M.musculus
+Foxo1	mmu-mir-302a	NA	NA	Repression	33372619	literature	Embryonic stem cells	M.musculus
+Sox6	mmu-mir-29b-2	NA	NA	Activation	33279721	literature	C2C12	M.musculus
+Sox6	mmu-mir-29b-1	NA	NA	Activation	33279721	literature	C2C12	M.musculus
+Ezh2	mmu-mir-22	NA	NA	Repression	33097254	literature	cardiomyocytes	M.musculus
+Ezh2	mmu-mir-101	NA	NA	Repression	33686766	literature	RAW264.7	M.musculus
+Foxo3	mmu-mir-34b	NA	NA	Activation	33941868	literature	bronchial epithelial cells	M.musculus
+Hdac3	mmu-mir-494	NA	NA	Repression	33982231	literature	Primary cardiomyocytes	M.musculus
+Ezh2	mmu-mir-1929	NA	NA	Repression	34057794	literature	MPC-5	M.musculus
+Elf3	mmu-mir-182	NA	NA	Activation	36817393	literature	3T3-L1	M.musculus
+Klf6	mmu-mir-223	NA	NA	Repression	34710881	literature	TCMK-1	M.musculus
+Egr2	mmu-mir-455	NA	NA	Activation	35029277	literature	MIN6	M.musculus
+Mysm1	mmu-mir-150	NA	NA	Activation	30895711	literature	Adipose-derived stem cells	M.musculus
+Egr1	mmu-mir-182	NA	NA	Repression	37530910	literature	Retinal tissue	M.musculus
+Hdac3	mmu-mir-17	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Mbd2	mmu-mir-345	NA	NA	Activation	34853720	literature	retinal ganglion cells	M.musculus
+Sp1	mmu-mir-204	NA	NA	Activation	33614251	literature	HEI-OC1	M.musculus
+Atf3	mmu-mir-33	NA	NA	Repression	31709711	literature	RAW264.7	M.musculus
+Sox4	mmu-mir-181	NA	NA	Activation	30287480	literature	thymocytes	M.musculus
+Sox10	mmu-mir-29a	NA	NA	Activation	36919939	literature	HT-22	M.musculus
+E2f1	mmu-mir-130b	NA	NA	Repression	37941530	literature	Adipose-derived stem cells	M.musculus
+Stat3	mmu-mir-146b	NA	NA	Activation	37146099	literature	HEK-293T	M.musculus
+Tead1	mmu-mir-27b	NA	NA	Activation	37574723	literature	adipocyte precursor cells	M.musculus
+E2f1	mmu-mir-122	NA	NA	Repression	33177827	literature	N2a	M.musculus
+Sp1	mmu-mir-200b	NA	NA	Activation	37165386	literature	MLO-Y4	M.musculus
+Relb	mmu-mir-193a	NA	NA	Repression	36863451	literature	HEK-293T	M.musculus
+Yy1	mmu-mir-130a	NA	NA	Repression	35234205	literature	BV-2	M.musculus
+Sox9	mmu-mir-96	NA	NA	Repression	35686454	literature	HL-1	M.musculus
+Atf1	mmu-mir-214	NA	NA	Activation	35568813	literature	RAW264.7	M.musculus
+Sp1	mmu-mir-122	NA	NA	Activation	33827415	literature	Sertoli cells	M.musculus
+Sp1	mmu-mir-144	NA	NA	Activation	34730058	literature	N1511	M.musculus
+Hdac3	mmu-mir-18a	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Hdac3	mmu-mir-19b	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Smad2	mmu-mir-9	NA	NA	Activation	31174089	literature	RAW264.7	M.musculus
+Smad4	mmu-mir-375	NA	NA	Activation	31921861	literature	Mesenchymal stem cells	M.musculus
+Prrx1	mmu-mir-503	NA	NA	Activation	31712603	literature	NIH-3T3	M.musculus
+Smad4	mmu-mir-675	NA	NA	Repression	30953355	literature	mouse cardiac fibroblasts	M.musculus
+Foxo1	mmu-mir-122	NA	NA	Activation	29248466	literature	hepatic stellate cell	M.musculus
+Smad3	hsa-mir-195	NA	NA	Activation	29465312	literature	Mouse primary hepatocytes	M.musculus
+Smad3	mmu-mir-675	NA	NA	Repression	30953355	literature	mouse cardiac fibroblasts	M.musculus
+Smad2	mmu-mir-675	NA	NA	Repression	30953355	literature	mouse cardiac fibroblasts	M.musculus
+Notch1	mmu-mir-155	NA	NA	Repression	30273359	literature	C2C12	M.musculus
+Prmt7	mmu-mir-221	NA	NA	Repression	29378844	literature	Embryonic stem cells	M.musculus
+Pitx2	mmu-mir-31	NA	NA	Repression	29641992	literature	Sol8	M.musculus
+Nrf1	mmu-mir-378	NA	NA	Repression	29625129	literature	Hepa1-6;liver	M.musculus
+Crtc3	mmu-mir-206	NA	NA	Activation	29784793	literature	hib1b;SVF	M.musculus
+Hdac3	mmu-mir-19a	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Stat3	mmu-mir-130b	NA	NA	Activation	36217202	literature	HEK 293 T	M.musculus
+Ctnnb1	mmu-mir-146a	NA	NA	Activation	36985977	literature	bone marrow mesenchymal stem cells	M.musculus
+Irf1	mmu-mir-155	NA	NA	Activation	37063422	literature	BV2	M.musculus
+Irf7	mmu-mir-375	NA	NA	Repression	36336986	literature	colonic epithelial cells	M.musculus
+Smad2	mmu-mir-300	NA	NA	Activation	37273781	literature	HEK-293T	M.musculus
+Bmp6	mmu-mir-122	NA	NA	Activation	37566034	literature	Hepa1−6	M.musculus
+Ezh2	mmu-mir-15a	NA	NA	Repression	37146769	literature	hippocampal neurons	M.musculus
+Cebpd	mmu-mir-96	NA	NA	Activation	37752084	literature	cardiac tissue	M.musculus
+Dot1l	mmu-mir-181	NA	NA	Activation	38072145	literature	bone marrow mesenchymal stem cells	M.musculus
+Foxo4	mmu-mir-138	NA	NA	Activation	35796190	literature	HT-22	M.musculus
+Ahr	mmu-mir-142a	NA	NA	Activation	33204326	literature	Bone marrow derived macrophages	M.musculus
+Smad4	mmu-mir-34a	NA	NA	Activation	35286917	literature	EL4	M.musculus
+Hdac3	mmu-mir-92	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Hdac3	mmu-mir-20a	NA	NA	Repression	33143661	literature	lung fibroblasts	M.musculus
+Srf	mmu-mir-210	NA	NA	Activation	23818299	literature	embryoid bodies	M.musculus
+Nfic	mmu-mir-200b	NA	NA	Activation	34930914	literature	C17.2	M.musculus
+Gata2	mmu-let-7e	NA	NA	Repression	30221399	literature	spleens CD11bGr1 cells	M.musculus
+Zeb1	mmu-mir-182	NA	NA	Repression	37863917	literature	HEK-293T	M.musculus
+Stat3	mmu-mir-31	NA	NA	Activation	28870287	literature	mICc12	M.musculus
+Sox4	mmu-mir-3065	NA	NA	Repression	31281513	literature	bone marrow stromal cells	M.musculus
+Sox4	mmu-mir-338	NA	NA	Repression	31281513	literature	bone marrow stromal cells	M.musculus
+Runx2	mmu-mir-3065	NA	NA	Repression	31281513	literature	bone marrow stromal cells	M.musculus
+Runx2	mmu-mir-338	NA	NA	Repression	31281513	literature	bone marrow stromal cells	M.musculus
+Ebf1	mmu-mir-27a	NA	NA	Repression	28704388	literature	A20	M.musculus
+Zeb1	mmu-mir-1199	NA	NA	Repression	29079737	literature	NMuMG/E9	M.musculus
+Stat6	mmu-mir-34a	NA	NA	Activation	32345320	literature	bone marrow-derived macrophages	M.musculus
+Stat3	mmu-mir-21b	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+Foxo1	mmu-mir-802	NA	NA	Activation	32286278	literature	Min6	M.musculus
+E2f1	mmu-mir-378a	NA	NA	Activation	32226531	literature	Hepa1-6;liver	M.musculus
+Myc	mmu-mir-144	NA	NA	Repression	33319407	literature	embryonic stem cell-derived erythroid G1E cells	M.musculus
+Myc	mmu-mir-451	NA	NA	Repression	33319407	literature	embryonic stem cell-derived erythroid G1E cells	M.musculus
+Sox10	mmu-mir-503	NA	NA	Activation	33082503	literature	mammary glands	M.musculus
+Pitx2	mmu-mir-24-2	NA	NA	Repression	37806494	literature	LS-8	M.musculus
+Pitx2	mmu-mir-27a	NA	NA	Repression	37806494	literature	LS-8	M.musculus
+Pitx2	mmu-mir-23a	NA	NA	Repression	37806494	literature	LS-8	M.musculus
+Sox9	mmu-mir-455	NA	NA	Activation	34230481	literature	chondrocytes	M.musculus
+Stat3	mmu-mir-21a	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+Runx2	mmu-mir-23a	NA	NA	Activation	29743543	literature	Hepa1-6	M.musculus
+Nfatc3	mmu-mir-153	NA	NA	Activation	31903137	literature	cardiomyocytes	M.musculus
+Ets2	mmu-mir-124a	NA	NA	Repression	31754329	literature	MIN6	M.musculus
+Rela	mmu-mir-30a	NA	NA	Repression	31561751	literature	T cells	M.musculus
+Klf6	mmu-mir-223	NA	NA	Repression	31262200	literature	RAW264.7;bone marrow–derived macrophage	M.musculus
+Stat3	mmu-mir-21	NA	NA	Activation	31078118	literature	Gr1CD11b	M.musculus
+Junb	mmu-mir-182	NA	NA	Activation	30674954	literature	B220 B cells	M.musculus
+Stat3	mmu-mir-199a-2	NA	NA	Activation	30426460	literature	myocardium	M.musculus
+Gata2	mmu-let-7e	NA	NA	Repression	30221399	literature	spleens CD11bGr1 cells isolated	M.musculus
+Sp7	mmu-mir-98	NA	NA	Activation	29949140	literature	osteoblasts	M.musculus
+Atf4	mmu-mir-552	NA	NA	Activation	35857794	literature	smooth muscle cells	M.musculus
+Klf4	mmu-mir-182	NA	NA	Activation	31686119	literature	HL-1	M.musculus
+Stat3	mmu-mir-181b	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+Bmi1	mmu-mir-29a	NA	NA	Repression	36309571	literature	C2C12	M.musculus
+Ezh2	mmu-mir-29a	NA	NA	Repression	36309571	literature	C2C12	M.musculus
+Stat1	mmu-mir-99b	NA	NA	Activation	38431286	literature	AML-12	M.musculus
+Brd4	mmu-mir-146a	NA	NA	Activation	33630975	literature	Bone marrow derived macrophages	M.musculus
+Smad4	mmu-mir-26a-1	NA	NA	Activation	31921861	literature	Mesenchymal stem cells	M.musculus
+Sox10	mmu-mir-424	NA	NA	Activation	33082503	literature	mammary glands	M.musculus
+Sp1	mmu-mir-124a	NA	NA	Activation	29340098	literature	RAW264.7	M.musculus
+E2f1	mmu-mir-92a-1	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+Stat3	mmu-mir-7-1	NA	NA	Activation	31982773	literature	C3H10	M.musculus
+Smad4	mmu-mir-124a	NA	NA	Activation	30576242	literature	3T3-L1	M.musculus
+Prrx1	mmu-mir-424	NA	NA	Activation	31712603	literature	NIH-3T3	M.musculus
+Notch1	mmu-mir-29a	NA	NA	Repression	29807327	literature	NIH3T3;CD4 T cells	M.musculus
+Sp1	mmu-mir-545	NA	NA	Activation	31327495	literature	MC3T3-E1	M.musculus
+Smad3	mmu-mir-29a	NA	NA	Repression	29230533	literature	NIH-3T3	M.musculus
+Sox10	mmu-mir-204	NA	NA	Activation	32176386	literature	Neuro2a	M.musculus
+Ebf1	mmu-mir-24-1	NA	NA	Repression	28704388	literature	A20	M.musculus
+Esr2	mmu-mir-135a-1	NA	NA	Repression	34440873	literature	granulosa cells	M.musculus
+E2f1	mmu-mir-17	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+Stat3	mmu-mir-1281	NA	NA	Repression	33089914	literature	lung	M.musculus
+E2f1	mmu-mir-18a	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+E2f1	mmu-mir-19a	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+E2f1	mmu-mir-20a	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+Ebf1	mmu-mir-23a	NA	NA	Repression	28704388	literature	A20	M.musculus
+E2f1	mmu-mir-19b	NA	NA	Activation	28698574	literature	palatal mesenchymal cells	M.musculus
+Dnmt3a	mmu-mir-34b	NA	NA	Repression	31129659	literature	vascular smooth muscle cells	M.musculus
+Stat3	mmu-mir-19b	NA	NA	Repression	33089914	literature	lung	M.musculus
+Zeb1	mmu-mir-96	NA	NA	Repression	37863917	literature	HEK-293T	M.musculus
+Myc	mmu-mir-320	NA	NA	Activation	34933640	literature	RAW 264.7	M.musculus
+Ncor1	mmu-mir-199a-1	NA	NA	Repression	34774795	literature	liver	M.musculus
+Ezh2	mmu-mir-22	NA	NA	Repression	32657761	literature	Hair follicle stem cells	M.musculus
+Spi1	mmu-mir-147	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Nfe2l2	mmu-mir-214	NA	NA	Repression	34000381	literature	bone marrow–derived macrophages	M.musculus
+Rela	mmu-mir-147	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Ep300	mmu-mir-147	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Rela	mmu-mir-376b	NA	NA	Repression	33328388	literature	BUMPT	M.musculus
+Rela	mmu-mir-99b	NA	NA	Activation	33109608	literature	MH-S	M.musculus
+Trp53	mmu-mir-149	NA	NA	Activation	34140005	literature	AKR	M.musculus
+Creb1	mmu-mir-132	NA	NA	Activation	29172439	literature	hippocampal tissue	M.musculus
+Spi1	mmu-mir-155	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Spi1	mmu-mir-34a	NA	NA	Activation	29162670	literature	hepatic stellate cells	M.musculus
+Ep300	mmu-mir-147	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Ep300	mmu-mir-155	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Spi1	mmu-mir-147	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Creb1	mmu-mir-206	NA	NA	Activation	29784793	literature	hib1b;SVF	M.musculus
+Rela	mmu-mir-146a	NA	NA	Repression	30337925	literature	Raw264.7	M.musculus
+Ep300	mmu-mir-155	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Rela	mmu-mir-155	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Spi1	mmu-mir-29c	NA	NA	Activation	29162670	literature	hepatic stellate cells	M.musculus
+Nfe2l2	hsa-mir-380	NA	NA	Activation	31368498	literature	N2a	M.musculus
+Nfe2l2	mmu-mir-146a	NA	NA	Activation	36040608	literature	BV2	M.musculus
+Rela	mmu-mir-155	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Rela	mmu-mir-147	NA	NA	Activation	29133016	literature	macrophages	M.musculus
+Trp53	mmu-mir-27a	NA	NA	Repression	30745821	literature	CHO-K1	M.musculus
+Nr4a2	mmu-mir-30e	NA	NA	Activation	37990334	literature	BV2	M.musculus
+Hdac1-ps	mmu-mir-195	NA	NA	Repression	29465312	literature	Hepa1-6	M.musculus
+Trp53	mmu-mir-92a-1	NA	NA	Activation	35734423	literature	brown adipocytes	M.musculus
+Myod1	mmu-mir-27a	NA	NA	Activation	36288764	literature	CHO-K1	M.musculus
+Nfe2l2	mmu-mir-103-1	NA	NA	Activation	37885132	literature	HEK-293T	M.musculus
+Nfe2l2	mmu-mir-93	NA	NA	Activation	32641994	literature	bone marrow-derived macrophages	M.musculus
+Rnf2	mmu-mir-29a	NA	NA	Repression	36309571	literature	C2C12	M.musculus
+Myb	mmu-mir-143	NA	NA	Activation	30169548	literature	vascular smooth muscle cells	M.musculus
+Nr1h4	mmu-mir-199a-1	NA	NA	Repression	34774795	literature	liver	M.musculus
+Creb1	mmu-mir-212	NA	NA	Activation	32767729	literature	RAW264.7	M.musculus
+Nr1h4	mmu-mir-126a	NA	NA	Activation	32221722	literature	Hep1-6;Liver	M.musculus
+Jun	mmu-mir-21	NA	NA	Activation	32314840	literature	marrow-derived mesenchymal stem cells	M.musculus
+Kdm6b	mmu-mir-146a	NA	NA	Repression	30337925	literature	Raw264.7	M.musculus
+Gata4	mmu-mir-29a	NA	NA	Repression	36309571	literature	C2C12	M.musculus
+Myb	mmu-mir-145	NA	NA	Activation	30169548	literature	vascular smooth muscle cells	M.musculus
+Spi1	mmu-mir-155	NA	NA	Activation	29133016	literature	bone marrow-derived macrophages	M.musculus
+Rela	mmu-mir-27a	NA	NA	Activation	38701957	literature	Astrocytes	M.musculus
+c-Myc	mmu-mir-23b	NA	NA	Repression	34512173	literature	cerebral cortical cells	M.musculus
+C/EBPα	mmu-mir-7a-1	NA	NA	Activation	37094666	literature	intestinal epithelial cells	M.musculus
+TGFβ1	mmu-mir-122	NA	NA	Repression	37566034	literature	Hepa1−6	M.musculus
+C/EBPα	mmu-mir-128-1	NA	NA	Activation	36880288	literature	N2a	M.musculus
+HIF2α	mmu-mir-3085	NA	NA	Activation	35672324	literature	brown adipocytes	M.musculus
+c-Myc	mmu-mir-200b	NA	NA	Repression	34371139	literature	brain	M.musculus
+c-Myc	mmu-mir-1929	NA	NA	Repression	34057794	literature	MPC-5	M.musculus
+β-catenin	mmu-mir-142	NA	NA	Activation	32700780	literature	ST2	M.musculus
+SREBP1c	mmu-mir-153	NA	NA	Repression	33491670	literature	pancreatic tissues	M.musculus
+HNF4α	mmu-mir-467b	NA	NA	Activation	34139323	literature	Hepa1-6	M.musculus
+IFN-γ	mmu-mir-351	NA	NA	Repression	29255036	literature	Hepatic stellate cells	M.musculus
+c-Myc	mmu-mir-144	NA	NA	Repression	29284789	literature	B-lymphoma cells	M.musculus
+c-Myc	mmu-mir-451	NA	NA	Repression	29284789	literature	B-lymphoma cells	M.musculus
+AP-2α	mmu-mir-25	NA	NA	Activation	29518009	literature	C2C12	M.musculus
+p-CREB	mmu-mir-206	NA	NA	Activation	29784793	literature	hib1b;SVF	M.musculus
+C/EBPβ	mmu-mir-21	NA	NA	Activation	31078118	literature	Gr1CD11b	M.musculus
+NF-κB1	mmu-mir-143	NA	NA	Repression	30394308	literature	BV2	M.musculus
+HIF-1α	mmu-mir-23a	NA	NA	Activation	30551896	literature	tubular epithelial cells	M.musculus
+LXRα	mmu-mir-378	NA	NA	Activation	30281809	literature	Hepa1-6;liver	M.musculus
+Cebpβ	mmu-mir-21a	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+Cebpβ	mmu-mir-21b	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+Cebpβ	mmu-mir-181b	NA	NA	Activation	32358019	literature	murine myeloid-derived suppressor cells	M.musculus
+CEBP/α	mmu-mir-7b	NA	NA	Activation	33125780	literature	T cells	M.musculus
+C/EBPβ	mmu-mir-21	NA	NA	Activation	28934717	literature	Gr1CD11b	M.musculus
+EBS2	mmu-mir-126	NA	NA	Activation	29118970	literature	mouse endothelial cells	M.musculus
+NF-κB	mmu-mir-146a	NA	NA	Activation	30018336	literature	L929	M.musculus
+Pparγ	mmu-let-7g	NA	NA	Regulation	31871210	literature	hepatic stellate cells	M.musculus
+Pparγ	mmu-mir-338	NA	NA	Regulation	31871210	literature	hepatic stellate cells	M.musculus
+Pparγ	mmu-mir-29c	NA	NA	Regulation	31871210	literature	hepatic stellate cells	M.musculus
+Pparγ	mmu-mir-30e	NA	NA	Regulation	31871210	literature	hepatic stellate cells	M.musculus
+PPARγ	mmu-mir-7b	NA	NA	Activation	38632598	literature	EL4	M.musculus
+c-Myc	mmu-mir-3682	NA	NA	Activation	36366818	literature	T cells	M.musculus
+PPAR-γ	mmu-mir-23a	NA	NA	Activation	31091119	literature	bone marrow-derived macrophages	M.musculus
+NF-κB	mmu-let-7f-1	NA	NA	Activation	36120949	literature	dendritic epidermal T cells	M.musculus
+Ahr	mmu-mir-132	NA	NA	Activation	23818645	literature	NA	M.musculus
+Ahr	mmu-mir-212	NA	NA	Activation	23818645	literature	NA	M.musculus
+Ahr	mmu-mir-302a	NA	NA	Activation	23821545	literature	NA	M.musculus
+Ahr	mmu-mir-302b	NA	NA	Activation	23821545	literature	NA	M.musculus
+Ahr	mmu-mir-302c	NA	NA	Activation	23821545	literature	NA	M.musculus
+Ahr	mmu-mir-302d	NA	NA	Activation	23821545	literature	NA	M.musculus
+Ahr	mmu-mir-367	NA	NA	Activation	23821545	literature	NA	M.musculus
+Akt1	mmu-mir-21	NA	NA	Activation	20404348	literature	NA	M.musculus
+Atf4	mmu-mir-211	NA	NA	Activation	23022383	literature	NA	M.musculus
+Bcl6	mmu-mir-21	NA	NA	Repression	23416424	literature	NA	M.musculus
+Bmi1	mmu-mir-300	NA	NA	Activation	26512961	literature	NA	M.musculus
+Bmp7	mmu-mir-455	NA	NA	Activation	26303948	literature	NA	M.musculus
+Cdx2	mmu-mir-196b	NA	NA	Activation	26141604	literature	NA	M.musculus
+Cebpa	mmu-mir-101b	NA	NA	Activation(feedback)	28217257	literature	NA	M.musculus
+Cebpa	mmu-mir-130a	NA	NA	Repression	26923288	literature	NA	M.musculus
+Cebpa	mmu-mir-130b	NA	NA	Activation	26923288	literature	NA	M.musculus
+Cebpa	mmu-mir-140	NA	NA	Activation	26657345	literature	NA	M.musculus
+Cebpa	mmu-mir-21	NA	NA	Activation	24421386	literature	NA	M.musculus
+Cebpa	mmu-mir-22	NA	NA	Activation	24421386	literature	NA	M.musculus
+Cebpa	mmu-mir-223	NA	NA	Activation	24421386	literature	NA	M.musculus
+Cebpa	mmu-mir-223	NA	NA	Activation	25641499	literature	NA	M.musculus
+Cebpa	mmu-mir-34a	NA	NA	Activation	24421386	literature	NA	M.musculus
+Cebpa	mmu-mir-476	NA	NA	Activation	25641499	literature	NA	M.musculus
+Cebpa	mmu-mir-758	NA	NA	Activation	25641499	literature	NA	M.musculus
+Cebpb	mmu-mir-130a	NA	NA	Repression	26923288	literature	NA	M.musculus
+Cebpb	mmu-mir-130b	NA	NA	Activation	26923288	literature	NA	M.musculus
+Cebpb	mmu-mir-142	NA	NA	Activation	23509362	literature	NA	M.musculus
+Cebpb	mmu-mir-146a	NA	NA	Repression	26538391	literature	NA	M.musculus
+Cebpb	mmu-mir-155	NA	NA	Repression(feedback)	23612310	literature	NA	M.musculus
+Cebpb	mmu-mir-155	NA	NA	Repression(feedback)	26538391	literature	NA	M.musculus
+Cebpb	mmu-mir-181b	NA	NA	Activation	27430527	literature	NA	M.musculus
+Cebpb	mmu-mir-21	NA	NA	Activation	27430527	literature	NA	M.musculus
+Cebpb	mmu-mir-223	NA	NA	Activation	25641499	literature	NA	M.musculus
+Cebpb	mmu-mir-455	NA	NA	Activation	24444604	literature	NA	M.musculus
+Cebpb	mmu-mir-476	NA	NA	Activation	25641499	literature	NA	M.musculus
+Cebpb	mmu-mir-758	NA	NA	Activation	25641499	literature	NA	M.musculus
+Clock	mmu-mir-142	NA	NA	Regulation	22958478	literature	NA	M.musculus
+Clock	mmu-mir-17	NA	NA	Activation(feedback)	27440219	literature	NA	M.musculus
+Cp2	mmu-mir-144	NA	NA	Activation	28182010	literature	NA	M.musculus
+Creb1	mmu-mir-132	NA	NA	Regulation	20307261	literature	NA	M.musculus
+Creb1	mmu-mir-132	NA	NA	Activation	25217442	literature	NA	M.musculus
+Creb1	mmu-mir-212	NA	NA	Regulation	20307261	literature	NA	M.musculus
+Creb1	mmu-mir-212	NA	NA	Activation	25217442	literature	NA	M.musculus
+Crebbp	mmu-mir-132	NA	NA	Activation	25217442	literature	NA	M.musculus
+Crebbp	mmu-mir-212	NA	NA	Activation	25217442	literature	NA	M.musculus
+Crtc1	mmu-mir-132	NA	NA	Activation	26797246	literature	NA	M.musculus
+Crtc1	mmu-mir-212	NA	NA	Activation	26797246	literature	NA	M.musculus
+Ctnnb1	mmu-mir-211	NA	NA	Activation	25727520	literature	NA	M.musculus
+Ddit3	mmu-mir-708	NA	NA	Activation	21402790	literature	NA	M.musculus
+E2f1	mmu-mir-30b	NA	NA	Repression	25301066	literature	NA	M.musculus
+E2f1	mmu-mir-325	NA	NA	Activation	24531537	literature	NA	M.musculus
+E2f1	mmu-mir-421	NA	NA	Activation	26184432	literature	NA	M.musculus
+E2f2	mmu-let-7a-1	NA	NA	Activation	24240124	literature	NA	M.musculus
+E2f3	mmu-mir-141	NA	NA	Activation	22993445	literature	NA	M.musculus
+E2f3	mmu-mir-200c	NA	NA	Activation	22993445	literature	NA	M.musculus
+Ep300	mmu-mir-192	NA	NA	Regulation	23737551	literature	NA	M.musculus
+Erk1/2	mmu-mir-132	NA	NA	Regulation	20307261	literature	NA	M.musculus
+Erk1/2	mmu-mir-212	NA	NA	Regulation	20307261	literature	NA	M.musculus
+Esr1	mmu-mir-375	NA	NA	Repression	20978187	literature	NA	M.musculus
+Esrrb	mmu-mir-499	NA	NA	Activation	23676496	literature	NA	M.musculus
+Esrrg	mmu-mir-208b	NA	NA	Activation	23676496	literature	NA	M.musculus
+Esrrg	mmu-mir-499	NA	NA	Activation	23676496	literature	NA	M.musculus
+Ets1	mmu-mir-17	NA	NA	Activation(feedback)	24968297	literature	NA	M.musculus
+Ets1	mmu-mir-18a	NA	NA	Activation(feedback)	24968297	literature	NA	M.musculus
+Ets1	mmu-mir-192	NA	NA	Repression	23737551	literature	NA	M.musculus
+Ets1	mmu-mir-19a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets1	mmu-mir-19b-1	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets1	mmu-mir-20a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets1	mmu-mir-92a-1	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-17	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-18a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-19a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-19b-1	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-20a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Ets2	mmu-mir-92a-1	NA	NA	Activation(feedback)	24968297	literature	NA	M.musculus
+Etv6	mmu-mir-130a	NA	NA	Activation	26565914	literature	NA	M.musculus
+Ezh2	mmu-mir-208b	NA	NA	Repression	24137001	literature	NA	M.musculus
+Ezh2	mmu-mir-29b-2	NA	NA	Repression(feedback)	22438993	literature	NA	M.musculus
+Ezh2	mmu-mir-29c	NA	NA	Repression(feedback)	22438993	literature	NA	M.musculus
+Foxh1	mmu-mir-1188	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-1193	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-1197	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-134	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-154	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-299a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-299b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-300	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-3072	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-323	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-329	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-341	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-369	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-370	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-376a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-376b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-376c	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-377	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-379	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-380	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-381	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-382	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-409	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-410	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-411	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-412	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-453	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-485	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-487b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-494	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-495	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-496a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-539	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-541	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-543	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-544	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-654	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-666	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-667	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-668	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-679	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-758	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxh1	mmu-mir-882	NA	NA	Activation	23390484	literature	NA	M.musculus
+Foxo3	mmu-mir-874	NA	NA	Repression	23828572	literature	NA	M.musculus
+Gata1	mmu-mir-144	NA	NA	Activation	18303114	literature	NA	M.musculus
+Gata1	mmu-mir-451	NA	NA	Activation	18303114	literature	NA	M.musculus
+Gata3	mmu-mir-142	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gata3	mmu-mir-144	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gata3	mmu-mir-183	NA	NA	Repression	24556500	literature	NA	M.musculus
+Gata3	mmu-mir-223	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gata3	mmu-mir-451a	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gata3	mmu-mir-451b	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gfi1	mmu-mir-196b	NA	NA	Repression	19278956	literature	NA	M.musculus
+Gfi1	mmu-mir-21	NA	NA	Repression	19278956	literature	NA	M.musculus
+Gfi1b	mmu-mir-142	NA	NA	Activation	27837403	literature	NA	M.musculus
+Gnrh1	mmu-mir-132	NA	NA	Activation	19356622	literature	NA	M.musculus
+Gnrh1	mmu-mir-212	NA	NA	Activation	19356622	literature	NA	M.musculus
+Grhl2	mmu-mir-122	NA	NA	Repression	25406394	literature	NA	M.musculus
+Grhl3	mmu-mir-21	NA	NA	Repression	22614019	literature	NA	M.musculus
+Hdac1	mmu-mir-133a-1	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac1	mmu-mir-133a-2	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac1	mmu-mir-1a-1	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac1	mmu-mir-1a-2	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac2	mmu-mir-133a-2	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac2	mmu-mir-155	NA	NA	Repression	24996169	literature	NA	M.musculus
+Hdac2	mmu-mir-1a-1	NA	NA	Repression	26371176	literature	NA	M.musculus
+Hdac3	mmu-mir-10a	NA	NA	Repression	27292126	literature	NA	M.musculus
+Hdac4	mmu-mir-29a	NA	NA	Repression(feedback)	24096265	literature	NA	M.musculus
+Hes1	mmu-mir-9-1	NA	NA	Repression(feedback)	22840391	literature	NA	M.musculus
+Hes1	mmu-mir-9-2	NA	NA	Repression(feedback)	22840391	literature	NA	M.musculus
+Hif1a	mmu-mir-138	NA	NA	Activation	24244340	literature	NA	M.musculus
+Hif1a	mmu-mir-20a	NA	NA	Repression(feedback)	25485521	literature	NA	M.musculus
+Hif1a	mmu-mir-210	NA	NA	Activation(feedback)	26206559	literature	NA	M.musculus
+Hif1a	mmu-mir-322	NA	NA	Activation	20972335	literature	NA	M.musculus
+Hif1a	mmu-mir-489	NA	NA	Activation	26975439	literature	NA	M.musculus
+Hif1a	mmu-mir-687	NA	NA	Activation	25587069	literature	NA	M.musculus
+Hnf1a	mmu-mir-192	NA	NA	Activation	21887698	literature	NA	M.musculus
+Hnf1a	mmu-mir-194	NA	NA	Activation	21887698	literature	NA	M.musculus
+Hnf1a	mmu-mir-194-2	NA	NA	Activation	21887698	literature	NA	M.musculus
+Hnf1b	mmu-mir-199a	NA	NA	Regulation	27059371	literature	NA	M.musculus
+Hnf1b	mmu-mir-200a	NA	NA	Activation	26292219	literature	NA	M.musculus
+Hnf1b	mmu-mir-200b	NA	NA	Activation	26292219	literature	NA	M.musculus
+Hnf1b	mmu-mir-223	NA	NA	Regulation	27059371	literature	NA	M.musculus
+Hnf1b	mmu-mir-24	NA	NA	Regulation	27059371	literature	NA	M.musculus
+Hnf1b	mmu-mir-27b	NA	NA	Regulation	27059371	literature	NA	M.musculus
+Hnf1b	mmu-mir-429	NA	NA	Activation	26292219	literature	NA	M.musculus
+Hnf4a	mmu-mir-101b	NA	NA	Activation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-122	NA	NA	Activation(feedback)	26171734	literature	NA	M.musculus
+Hnf4a	mmu-mir-122	NA	NA	Activation(feedback)	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-192	NA	NA	Activation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-193	NA	NA	Activation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-194-1	NA	NA	Regulation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-194-2	NA	NA	Activation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-215	NA	NA	Regulation	28217257	literature	NA	M.musculus
+Hnf4a	mmu-mir-29a	NA	NA	Activation(feedback)	26003733	literature	NA	M.musculus
+Hnf4a	mmu-mir-29b	NA	NA	Activation	26003733	literature	NA	M.musculus
+Hoxd13	mmu-mir-196b	NA	NA	Activation	26141604	literature	NA	M.musculus
+Hsf1	mmu-mir-34a	NA	NA	Repression	24123326	literature	NA	M.musculus
+Il1b	mmu-mir-223	NA	NA	Regulation	22937006	literature	NA	M.musculus
+Il6	mmu-mir-223	NA	NA	Regulation(feedback)	22937006	literature	NA	M.musculus
+Isl1	mmu-mir-218-1	NA	NA	Activation	26212498	literature	NA	M.musculus
+Isl1	mmu-mir-218-2	NA	NA	Activation	26212498	literature	NA	M.musculus
+Jmjd1c	mmu-mir-302a	NA	NA	Activation	22100412	literature	NA	M.musculus
+Jmjd1c	mmu-mir-302b	NA	NA	Activation	22100412	literature	NA	M.musculus
+Jmjd1c	mmu-mir-302c	NA	NA	Activation	22100412	literature	NA	M.musculus
+Jmjd1c	mmu-mir-302d	NA	NA	Activation	22100412	literature	NA	M.musculus
+Jmjd1c	mmu-mir-367	NA	NA	Activation	22100412	literature	NA	M.musculus
+Jun	mmu-mir-1	NA	NA	Repression	26619121	literature	NA	M.musculus
+Jun	mmu-mir-206	NA	NA	Activation	19721712	literature	NA	M.musculus
+Jun	mmu-mir-206	NA	NA	Repression	26619121	literature	NA	M.musculus
+Jun	mmu-mir-21	NA	NA	Activation	25898844	literature	NA	M.musculus
+Jun	mmu-mir-378	NA	NA	Activation	24675662	literature	NA	M.musculus
+Jun	mmu-mir-378	NA	NA	Activation	25142877	literature	NA	M.musculus
+Junb	mmu-mir-182	NA	NA	Activation	26458334	literature	NA	M.musculus
+Junb	mmu-mir-183	NA	NA	Activation	26458334	literature	NA	M.musculus
+Junb	mmu-mir-96	NA	NA	Activation	26458334	literature	NA	M.musculus
+Kat2a	mmu-mir-124-1	NA	NA	Activation	25306109	literature	NA	M.musculus
+Kat2a	mmu-mir-124-2	NA	NA	Activation	25306109	literature	NA	M.musculus
+Kat2a	mmu-mir-124-3	NA	NA	Activation	25306109	literature	NA	M.musculus
+Klf1	mmu-mir-142	NA	NA	Activation	27837403	literature	NA	M.musculus
+Klf1	mmu-mir-144	NA	NA	Activation	27837403	literature	NA	M.musculus
+Klf1	mmu-mir-451a	NA	NA	Activation	27837403	literature	NA	M.musculus
+Klf1	mmu-mir-451b	NA	NA	Activation	27837403	literature	NA	M.musculus
+Klf2	mmu-mir-150	NA	NA	Activation	25248747	literature	NA	M.musculus
+Klf4	mmu-mir-143	NA	NA	Repression	23430263	literature	NA	M.musculus
+Kmt2a	mmu-mir-23a	NA	NA	Activation	24824656	literature	NA	M.musculus
+Kmt2a	mmu-mir-23b	NA	NA	Activation	24824656	literature	NA	M.musculus
+Kmt2a	mmu-mir-24-1	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Kmt2a	mmu-mir-24-2	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Kmt2a	mmu-mir-27a	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Kmt2a	mmu-mir-27b	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Lhx3	mmu-mir-218-1	NA	NA	Activation	26212498	literature	NA	M.musculus
+Lhx3	mmu-mir-218-2	NA	NA	Activation	26212498	literature	NA	M.musculus
+Lin28b	mmu-let-7	NA	NA	Repression	19713958	literature	NA	M.musculus
+Lmx1b	mmu-mir-135a-2	NA	NA	Activation	24348261	literature	NA	M.musculus
+MSK	mmu-mir-132	NA	NA	Regulation	20307261	literature	NA	M.musculus
+MSK	mmu-mir-212	NA	NA	Regulation	20307261	literature	NA	M.musculus
+Mal1	mmu-mir-142	NA	NA	Regulation	22958478	literature	NA	M.musculus
+Mcat	mmu-mir-208b	NA	NA	Regulation	23676496	literature	NA	M.musculus
+Mecp2	mmu-mir-124-1	NA	NA	Activation(feedback)	24619648	literature	NA	M.musculus
+Mef2a	mmu-mir-410	NA	NA	Activation	23154418	literature	NA	M.musculus
+Mef2a	mmu-mir-410	NA	NA	Activation	26999812	literature	NA	M.musculus
+Mef2a	mmu-mir-433	NA	NA	Activation	23154418	literature	NA	M.musculus
+Mef2a	mmu-mir-495	NA	NA	Activation	26999812	literature	NA	M.musculus
+Mef2c	mmu-mir-1	NA	NA	Activation	18093911	literature	NA	M.musculus
+Mef2c	mmu-mir-133a	NA	NA	Activation	18093911	literature	NA	M.musculus
+Mef2c	mmu-mir-133a	NA	NA	Activation	26512955	literature	NA	M.musculus
+Mef2c	mmu-mir-133a-1	NA	NA	Activation(feedback)	18093911	literature	NA	M.musculus
+Mef2c	mmu-mir-1a-2	NA	NA	Activation	18093911	literature	NA	M.musculus
+Men1	mmu-mir-23a	NA	NA	Activation	24824656	literature	NA	M.musculus
+Men1	mmu-mir-23b	NA	NA	Activation	24824656	literature	NA	M.musculus
+Men1	mmu-mir-24-1	NA	NA	Activation	24824656	literature	NA	M.musculus
+Men1	mmu-mir-24-2	NA	NA	Activation	24824656	literature	NA	M.musculus
+Men1	mmu-mir-27a	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Men1	mmu-mir-27b	NA	NA	Activation(feedback)	24824656	literature	NA	M.musculus
+Mitf	mmu-mir-541	NA	NA	Repression	24722296	literature	NA	M.musculus
+Myc	mmu-let-7a	NA	NA	Activation	26676759	literature	NA	M.musculus
+Myc	mmu-mir-141	NA	NA	Regulation	19745813	literature	NA	M.musculus
+Myc	mmu-mir-15a	NA	NA	Activation	26676759	literature	NA	M.musculus
+Myc	mmu-mir-16-1	NA	NA	Activation	26676759	literature	NA	M.musculus
+Myc	mmu-mir-17	NA	NA	Activation	24968297	literature	NA	M.musculus
+Myc	mmu-mir-18a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Myc	mmu-mir-195	NA	NA	Activation	26676759	literature	NA	M.musculus
+Myc	mmu-mir-19a	NA	NA	Activation	24968297	literature	NA	M.musculus
+Myc	mmu-mir-19b-1	NA	NA	Activation	24968297	literature	NA	M.musculus
+Myc	mmu-mir-200	NA	NA	Regulation	19745813	literature	NA	M.musculus
+Myc	mmu-mir-20a	NA	NA	Activation(feedback)	24968297	literature	NA	M.musculus
+Myc	mmu-mir-23b	NA	NA	Repression	25781629	literature	NA	M.musculus
+Myc	mmu-mir-27b	NA	NA	Repression	25781629	literature	NA	M.musculus
+Myc	mmu-mir-290	NA	NA	Regulation	19363475	literature	NA	M.musculus
+Myc	mmu-mir-294	NA	NA	Regulation	19363475	literature	NA	M.musculus
+Myc	mmu-mir-295	NA	NA	Regulation	19363475	literature	NA	M.musculus
+Myc	mmu-mir-429	NA	NA	Regulation	19745813	literature	NA	M.musculus
+Myc	mmu-mir-497	NA	NA	Activation	26676759	literature	NA	M.musculus
+Myc	mmu-mir-92a-1	NA	NA	Activation	24968297	literature	NA	M.musculus
+Myd88	mmu-mir-124	NA	NA	Repression	24705038	literature	NA	M.musculus
+Myocd	mmu-mir-133a-1	NA	NA	Activation	24068960	literature	NA	M.musculus
+Myocd	mmu-mir-143	NA	NA	Activation	19578358	literature	NA	M.musculus
+Myocd	mmu-mir-145	NA	NA	Activation	19578358	literature	NA	M.musculus
+Myocd	mmu-mir-1a-2	NA	NA	Activation	24068960	literature	NA	M.musculus
+Myod1	mmu-mir-133a-1	NA	NA	Activation(feedback)	16731620	literature	NA	M.musculus
+Myod1	mmu-mir-133a-1	NA	NA	Activation(feedback)	18093911	literature	NA	M.musculus
+Myod1	mmu-mir-133a-2	NA	NA	Activation(feedback)	16731620	literature	NA	M.musculus
+Myod1	mmu-mir-182	NA	NA	Activation(feedback)	26234681	literature	NA	M.musculus
+Myod1	mmu-mir-1a-1	NA	NA	Activation	16731620	literature	NA	M.musculus
+Myod1	mmu-mir-1a-2	NA	NA	Activation	16731620	literature	NA	M.musculus
+Myod1	mmu-mir-1a-2	NA	NA	Activation	18093911	literature	NA	M.musculus
+Myod1	mmu-mir-206	NA	NA	Activation(feedback)	16731620	literature	NA	M.musculus
+Myod1	mmu-mir-29b-2	NA	NA	Activation	22438993	literature	NA	M.musculus
+Myod1	mmu-mir-29c	NA	NA	Activation	22438993	literature	NA	M.musculus
+Myod1	mmu-mir-675	NA	NA	Activation	23406902	literature	NA	M.musculus
+Myog	mmu-mir-133a-1	NA	NA	Activation(feedback)	16731620	literature	NA	M.musculus
+Myog	mmu-mir-133a-2	NA	NA	Activation(feedback)	16731620	literature	NA	M.musculus
+Myog	mmu-mir-1a-1	NA	NA	Activation	16731620	literature	NA	M.musculus
+Myog	mmu-mir-1a-2	NA	NA	Activation	16731620	literature	NA	M.musculus
+Myog	mmu-mir-206	NA	NA	Activation	16731620	literature	NA	M.musculus
+Nanog	mmu-mir-106a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-17	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-18a	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-19a	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-19b-1	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-19b-2	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-20a	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-20b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-290a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-290b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-291a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-291b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-292a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-292b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-293	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-294	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-295	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-302a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-302b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-302c	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-302d	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-363	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-367	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-9-2	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Nanog	mmu-mir-92a-1	NA	NA	Activation	24076654	literature	NA	M.musculus
+Nanog	mmu-mir-92a-2	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Neurog1	mmu-mir-9-2	NA	NA	Activation	26271009	literature	NA	M.musculus
+Nfatc1	mmu-mir-374	NA	NA	Activation	24335970	literature	NA	M.musculus
+Nfatc1	mmu-mir-9-1	NA	NA	Activation	24335970	literature	NA	M.musculus
+Nfatc3	mmu-mir-23a	NA	NA	Activation	24336651	literature	NA	M.musculus
+Nfatc3	mmu-mir-324	NA	NA	Repression	26633713	literature	NA	M.musculus
+Nfe2l2	mmu-mir-29a	NA	NA	Activation	25283360	literature	NA	M.musculus
+Nfe2l2	mmu-mir-29b-1	NA	NA	Activation	25283360	literature	NA	M.musculus
+Nfe2l2	mmu-mir-29b-2	NA	NA	Activation	25283360	literature	NA	M.musculus
+Nfe2l2	mmu-mir-29c	NA	NA	Activation	25283360	literature	NA	M.musculus
+Nfe2l2	mmu-mir-466b	NA	NA	Activation	26908462	literature	NA	M.musculus
+Nfkb1	mmu-let-7a-1	NA	NA	Activation	24240124	literature	NA	M.musculus
+Nfkb1	mmu-mir-146a	NA	NA	Activation	21981419	literature	NA	M.musculus
+Nfkb1	mmu-mir-146a	NA	NA	Repression	26538391	literature	NA	M.musculus
+Nfkb1	mmu-mir-155	NA	NA	Repression	26538391	literature	NA	M.musculus
+Nfkb1	mmu-mir-21	NA	NA	Activation	25000291	literature	NA	M.musculus
+Nfkb1	mmu-mir-214	NA	NA	Activation	26171727	literature	NA	M.musculus
+Nfkb1	mmu-mir-3077	NA	NA	Activation	23598412	literature	NA	M.musculus
+Nfkb1	mmu-mir-466i	NA	NA	Activation	26283478	literature	NA	M.musculus
+Nfkb1	mmu-mir-705	NA	NA	Activation	23598412	literature	NA	M.musculus
+Nfya	mmu-mir-33a	NA	NA	Repression	27199118	literature	NA	M.musculus
+Nfyc	mmu-mir-130b	NA	NA	Activation	25204661	literature	NA	M.musculus
+Nfyc	mmu-mir-301b	NA	NA	Activation	25204661	literature	NA	M.musculus
+Nkx2-1	mmu-mir-1195	NA	NA	Activation	25763778	literature	NA	M.musculus
+Nkx2-1	mmu-mir-200c	NA	NA	Repression	25763778	literature	NA	M.musculus
+Nkx2-1	mmu-mir-221	NA	NA	Repression	25763778	literature	NA	M.musculus
+Nkx2-5	mmu-mir-143	NA	NA	Activation	19578358	literature	NA	M.musculus
+Nkx2-5	mmu-mir-145	NA	NA	Activation	19578358	literature	NA	M.musculus
+Nr1h3	mmu-mir-144	NA	NA	Activation	23519695	literature	NA	M.musculus
+Nr1h3	mmu-mir-451	NA	NA	Activation	23519695	literature	NA	M.musculus
+Nr1h4	mmu-mir-144	NA	NA	Activation	23519696	literature	NA	M.musculus
+Nr1h4	mmu-mir-33	NA	NA	Activation	25593129	literature	NA	M.musculus
+Nr1h4	mmu-mir-33	NA	NA	Activation	25810294	literature	NA	M.musculus
+Nr1h4	mmu-mir-451	NA	NA	Activation	23519696	literature	NA	M.musculus
+Nr1i3	mmu-mir-122	NA	NA	Repression	26171734	literature	NA	M.musculus
+Nr2f1	mmu-mir-140	NA	NA	Activation	24349493	literature	NA	M.musculus
+Nr3c1	mmu-mir-27b	NA	NA	Activation(feedback)	25187367	literature	NA	M.musculus
+Nr6a1	mmu-mir-302a	NA	NA	Repression(feedback)	24578347	literature	NA	M.musculus
+Onecut1	mmu-mir-122	NA	NA	Activation	21920465	literature	NA	M.musculus
+Onecut2	mmu-mir-122	NA	NA	Activation	21920465	literature	NA	M.musculus
+PUP2	mmu-let-7	NA	NA	Repression	19713958	literature	NA	M.musculus
+Pax6	mmu-mir-124-3	NA	NA	Repression	24773074	literature	NA	M.musculus
+Pax6	mmu-mir-204	NA	NA	Activation	23516376	literature	NA	M.musculus
+Ped	mmu-mir-125a	NA	NA	Repression	18347971	literature	NA	M.musculus
+Pgr	mmu-mir-146b	NA	NA	Regulation	25236432	literature	NA	M.musculus
+Pgr	mmu-mir-148a	NA	NA	Regulation	25236432	literature	NA	M.musculus
+Pgr	mmu-mir-193b	NA	NA	Regulation	25236432	literature	NA	M.musculus
+Pitx2	mmu-mir-106b	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-106b	NA	NA	Repression	26055324	literature	NA	M.musculus
+Pitx2	mmu-mir-141	NA	NA	Activation	23863486	literature	NA	M.musculus
+Pitx2	mmu-mir-15b	NA	NA	Repression	26055324	literature	NA	M.musculus
+Pitx2	mmu-mir-17	NA	NA	Activation(feedback)	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-18a	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-19a	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-19b-1	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-200a	NA	NA	Activation	25122764	literature	NA	M.musculus
+Pitx2	mmu-mir-200b	NA	NA	Activation	25122764	literature	NA	M.musculus
+Pitx2	mmu-mir-200c	NA	NA	Activation	23863486	literature	NA	M.musculus
+Pitx2	mmu-mir-20a	NA	NA	Activation(feedback)	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-23b	NA	NA	Repression	26055324	literature	NA	M.musculus
+Pitx2	mmu-mir-25	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-335	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-423	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-429	NA	NA	Activation	25122764	literature	NA	M.musculus
+Pitx2	mmu-mir-503	NA	NA	Repression	26055324	literature	NA	M.musculus
+Pitx2	mmu-mir-92a-1	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx2	mmu-mir-93	NA	NA	Activation	24927531	literature	NA	M.musculus
+Pitx3	mmu-mir-133b	NA	NA	Activation(feedback)	17761882	literature	NA	M.musculus
+Pou2af1	mmu-mir-146a	NA	NA	Activation	24719463	literature	NA	M.musculus
+Pou2af1	mmu-mir-210	NA	NA	Activation	24719463	literature	NA	M.musculus
+Pou2f1	mmu-let-7g	NA	NA	Activation	22135361	literature	NA	M.musculus
+Pou2f2	mmu-mir-210	NA	NA	Activation	23960236	literature	NA	M.musculus
+Pou5f1	mmu-mir-106a	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-141	NA	NA	Activation	23386720	literature	NA	M.musculus
+Pou5f1	mmu-mir-19b-2	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-200a	NA	NA	Activation	23386720	literature	NA	M.musculus
+Pou5f1	mmu-mir-200b	NA	NA	Activation	23386720	literature	NA	M.musculus
+Pou5f1	mmu-mir-200c	NA	NA	Activation	23386720	literature	NA	M.musculus
+Pou5f1	mmu-mir-20b	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-290a	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-290b	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-291a	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-291b	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-292a	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-292b	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-293	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-294	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-295	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-302a	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-302a	NA	NA	Activation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302a	NA	NA	Regulation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302a	NA	NA	Activation	22100412	literature	NA	M.musculus
+Pou5f1	mmu-mir-302b	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-302b	NA	NA	Activation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302b	NA	NA	Regulation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302b	NA	NA	Activation	22100412	literature	NA	M.musculus
+Pou5f1	mmu-mir-302c	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-302c	NA	NA	Activation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302c	NA	NA	Regulation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302c	NA	NA	Activation	22100412	literature	NA	M.musculus
+Pou5f1	mmu-mir-302d	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-302d	NA	NA	Activation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302d	NA	NA	Regulation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-302d	NA	NA	Activation	22100412	literature	NA	M.musculus
+Pou5f1	mmu-mir-363	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-367	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-367	NA	NA	Activation	20857206	literature	NA	M.musculus
+Pou5f1	mmu-mir-367	NA	NA	Activation	22100412	literature	NA	M.musculus
+Pou5f1	mmu-mir-429	NA	NA	Activation	23386720	literature	NA	M.musculus
+Pou5f1	mmu-mir-9-2	NA	NA	Activation	18692474	literature	NA	M.musculus
+Pou5f1	mmu-mir-92a-2	NA	NA	Activation	18692474	literature	NA	M.musculus
+Ppara	mmu-mir-193b	NA	NA	Activation(feedback)	21743466	literature	NA	M.musculus
+Ppara	mmu-mir-208b	NA	NA	Repression	23676496	literature	NA	M.musculus
+Ppara	mmu-mir-365	NA	NA	Activation	21743466	literature	NA	M.musculus
+Ppara	mmu-mir-499	NA	NA	Repression	23676496	literature	NA	M.musculus
+Pparg	mmu-mir-103-1	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-148b	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-182	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-183	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-205	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-223	NA	NA	Activation	26436647	literature	NA	M.musculus
+Pparg	mmu-mir-378	NA	NA	Activation	22319216	literature	NA	M.musculus
+Pparg	mmu-mir-96	NA	NA	Activation	22319216	literature	NA	M.musculus
+Prdm1	mmu-let-7c	NA	NA	Repression	23298838	literature	NA	M.musculus
+Rapgef3	mmu-mir-124	NA	NA	Activation	22365550	literature	NA	M.musculus
+Rbpj	mmu-mir-125a	NA	NA	Activation	26759236	literature	NA	M.musculus
+Rbpj	mmu-mir-155	NA	NA	Repression(feedback)	24996169	literature	NA	M.musculus
+Rbpj	mmu-mir-182	NA	NA	Repression	27183593	literature	NA	M.musculus
+Rbpj	mmu-mir-99b	NA	NA	Activation	26759236	literature	NA	M.musculus
+Rela	mmu-mir-100	NA	NA	Activation	25757558	literature	NA	M.musculus
+Rela	mmu-mir-124-1	NA	NA	Activation(feedback)	25539811	literature	NA	M.musculus
+Rela	mmu-mir-124-3	NA	NA	Activation(feedback)	25539811	literature	NA	M.musculus
+Rela	mmu-mir-130	NA	NA	Activation	24396868	literature	NA	M.musculus
+Rela	mmu-mir-146a	NA	NA	Activation	25757558	literature	NA	M.musculus
+Rela	mmu-mir-146a	NA	NA	Activation	26538391	literature	NA	M.musculus
+Rela	mmu-mir-150	NA	NA	Activation	25757558	literature	NA	M.musculus
+Rela	mmu-mir-155	NA	NA	Activation	26538391	literature	NA	M.musculus
+Rela	mmu-mir-195	NA	NA	Repression	26567220	literature	NA	M.musculus
+Rela	mmu-mir-21	NA	NA	Activation	25130469	literature	NA	M.musculus
+Rela	mmu-mir-26a	NA	NA	Repression	26182366	literature	NA	M.musculus
+Rela	mmu-mir-31	NA	NA	Activation	26138368	literature	NA	M.musculus
+Rela	mmu-mir-31	NA	NA	Activation	26164206	literature	NA	M.musculus
+Rela	mmu-mir-33a	NA	NA	Activation	24360166	literature	NA	M.musculus
+Rela	mmu-mir-375	NA	NA	Activation	28119452	literature	NA	M.musculus
+Rela	mmu-mir-497	NA	NA	Repression	26567220	literature	NA	M.musculus
+Rela	mmu-mir-705	NA	NA	Activation	26700816	literature	NA	M.musculus
+Rest	mmu-mir-124	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-124-1	NA	NA	Regulation	16461918	literature	NA	M.musculus
+Rest	mmu-mir-124-2	NA	NA	Regulation	16461918	literature	NA	M.musculus
+Rest	mmu-mir-124-3	NA	NA	Regulation	16461918	literature	NA	M.musculus
+Rest	mmu-mir-132	NA	NA	Regulation	16461918	literature	NA	M.musculus
+Rest	mmu-mir-132	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-135b	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-137	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-153	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-21	NA	NA	Repression	26209818	literature	NA	M.musculus
+Rest	mmu-mir-212	NA	NA	Regulation	16461918	literature	NA	M.musculus
+Rest	mmu-mir-212	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-29b	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-9	NA	NA	Repression	23145961	literature	NA	M.musculus
+Rest	mmu-mir-9-1	NA	NA	Regulation(feedback)	16461918	literature	NA	M.musculus
+Rest	mmu-mir-9-2	NA	NA	Regulation(feedback)	16461918	literature	NA	M.musculus
+Rest	mmu-mir-9-3	NA	NA	Regulation(feedback)	16461918	literature	NA	M.musculus
+Runx1	mmu-mir-142	NA	NA	Activation	23509362	literature	NA	M.musculus
+Runx1	mmu-mir-142	NA	NA	Repression	27837403	literature	NA	M.musculus
+Runx1	mmu-mir-144	NA	NA	Repression	27837403	literature	NA	M.musculus
+Runx1	mmu-mir-451a	NA	NA	Repression	27837403	literature	NA	M.musculus
+Runx1	mmu-mir-451b	NA	NA	Repression	27837403	literature	NA	M.musculus
+Runx2	mmu-mir-302a	NA	NA	Activation	25215426	literature	NA	M.musculus
+Runx2	mmu-mir-690	NA	NA	Activation	26877865	literature	NA	M.musculus
+Sf1	mmu-mir-202	NA	NA	Activation	23843232	literature	NA	M.musculus
+Sf1	mmu-mir-383	NA	NA	Activation	24828505	literature	NA	M.musculus
+Sirt1	mmu-mir-134	NA	NA	Repression	20622856	literature	NA	M.musculus
+Smad1	mmu-mir-106b	NA	NA	Activation	24349434	literature	NA	M.musculus
+Smad1	mmu-mir-23a	NA	NA	Activation	25476774	literature	NA	M.musculus
+Smad1	mmu-mir-24-2	NA	NA	Activation	25476774	literature	NA	M.musculus
+Smad1	mmu-mir-25	NA	NA	Activation	24349434	literature	NA	M.musculus
+Smad1	mmu-mir-27a	NA	NA	Activation(feedback)	25476774	literature	NA	M.musculus
+Smad1	mmu-mir-93	NA	NA	Activation(feedback)	24349434	literature	NA	M.musculus
+Smad2	mmu-mir-1188	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-1193	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-1197	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-134	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-154	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-181c	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-181d	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-192	NA	NA	Activation	23737551	literature	NA	M.musculus
+Smad2	mmu-mir-21	NA	NA	Activation	25887159	literature	NA	M.musculus
+Smad2	mmu-mir-299a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-299b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-300	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-3072	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-323	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-329	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-341	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-369	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-370	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-376a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-376b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-376c	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-377	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-379	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-380	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-381	NA	NA	Activation(feedback)	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-382	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-409	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-410	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-411	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-412	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-453	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-485	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-487b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-494	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-495	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-496a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-539	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-541	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-543	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-544	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-654	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-666	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-667	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-668	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-679	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-758	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-882	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad2	mmu-mir-96	NA	NA	Activation	25531317	literature	NA	M.musculus
+Smad3	mmu-mir-1188	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-1193	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-1197	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-134	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-154	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-181c	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-181d	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-192	NA	NA	Activation	23737551	literature	NA	M.musculus
+Smad3	mmu-mir-208a	NA	NA	Activation	22941949	literature	NA	M.musculus
+Smad3	mmu-mir-21	NA	NA	Activation	25887159	literature	NA	M.musculus
+Smad3	mmu-mir-23a	NA	NA	Repression	18353861	literature	NA	M.musculus
+Smad3	mmu-mir-24-2	NA	NA	Repression(feedback)	18353861	literature	NA	M.musculus
+Smad3	mmu-mir-27a	NA	NA	Repression(feedback)	18353861	literature	NA	M.musculus
+Smad3	mmu-mir-27a	NA	NA	Regulation(feedback)	24498167	literature	NA	M.musculus
+Smad3	mmu-mir-27b	NA	NA	Activation(feedback)	24498167	literature	NA	M.musculus
+Smad3	mmu-mir-299a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-299b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-29b-2	NA	NA	Repression	21784902	literature	NA	M.musculus
+Smad3	mmu-mir-300	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-3072	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-323	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-329	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-341	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-369	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-370	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-376a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-376b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-376c	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-377	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-379	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-380	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-381	NA	NA	Activation(feedback)	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-382	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-409	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-410	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-411	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-412	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-433	NA	NA	Activation	23868013	literature	NA	M.musculus
+Smad3	mmu-mir-453	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-485	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-487b	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-494	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-495	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-496a	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-539	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-541	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-543	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-544	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-654	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-666	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-667	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-668	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-679	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-758	NA	NA	Activation	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-882	NA	NA	Activation(feedback)	23390484	literature	NA	M.musculus
+Smad3	mmu-mir-96	NA	NA	Activation	25531317	literature	NA	M.musculus
+Smad4	mmu-mir-106b	NA	NA	Activation	24349434	literature	NA	M.musculus
+Smad4	mmu-mir-208a	NA	NA	Activation	22941949	literature	NA	M.musculus
+Smad4	mmu-mir-21	NA	NA	Regulation	25130469	literature	NA	M.musculus
+Smad4	mmu-mir-25	NA	NA	Activation(feedback)	24349434	literature	NA	M.musculus
+Smad4	mmu-mir-93	NA	NA	Activation(feedback)	24349434	literature	NA	M.musculus
+Smad4	mmu-mir-96	NA	NA	Activation	25531317	literature	NA	M.musculus
+Smad4	mmu-mir-96	NA	NA	Activation	25531317	literature	NA	M.musculus
+Smad5	mmu-mir-106b	NA	NA	Activation(feedback)	24349434	literature	NA	M.musculus
+Smad5	mmu-mir-25	NA	NA	Activation	24349434	literature	NA	M.musculus
+Smad5	mmu-mir-93	NA	NA	Activation(feedback)	24349434	literature	NA	M.musculus
+Smad5	mmu-mir-23a	NA	NA	Activation	25476774	literature	NA	M.musculus
+Smad5	mmu-mir-24-2	NA	NA	Activation	25476774	literature	NA	M.musculus
+Smad5	mmu-mir-27a	NA	NA	Activation	25476774	literature	NA	M.musculus
+Snai1	mmu-let-7a	NA	NA	Repression	25316190	literature	NA	M.musculus
+Snai1	mmu-let-7e	NA	NA	Repression	25316190	literature	NA	M.musculus
+Snai1	mmu-let-7g	NA	NA	Repression	25316190	literature	NA	M.musculus
+Snai1	mmu-let-7i	NA	NA	Repression	25316190	literature	NA	M.musculus
+Sox2	mmu-mir-106a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-141	NA	NA	Activation	22993445	literature	NA	M.musculus
+Sox2	mmu-mir-141	NA	NA	Activation	23386720	literature	NA	M.musculus
+Sox2	mmu-mir-19b-2	NA	NA	Regulation(feedback)	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-200a	NA	NA	Activation	23386720	literature	NA	M.musculus
+Sox2	mmu-mir-200b	NA	NA	Activation	23386720	literature	NA	M.musculus
+Sox2	mmu-mir-200c	NA	NA	Activation(feedback)	22993445	literature	NA	M.musculus
+Sox2	mmu-mir-200c	NA	NA	Activation(feedback)	23386720	literature	NA	M.musculus
+Sox2	mmu-mir-20b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-290a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-290b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-291a	NA	NA	Regulation(feedback)	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-291b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-292a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-292b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-293	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-294	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-295	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-302a	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-302b	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-302c	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-302d	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-363	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-367	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-429	NA	NA	Activation	23386720	literature	NA	M.musculus
+Sox2	mmu-mir-9-2	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox2	mmu-mir-92a-2	NA	NA	Regulation	18692474	literature	NA	M.musculus
+Sox6	mmu-mir-208b	NA	NA	Repression	21633012	literature	NA	M.musculus
+Sox9	mmu-mir-202	NA	NA	Activation	23843232	literature	NA	M.musculus
+Sp1	mmu-mir-130a	NA	NA	Activation	26436920	literature	NA	M.musculus
+Spi1	mmu-mir-142	NA	NA	Activation	23509362	literature	NA	M.musculus
+Spi1	mmu-mir-146a	NA	NA	Activation	25904598	literature	NA	M.musculus
+Spi1	mmu-mir-191	NA	NA	Activation	25094047	literature	NA	M.musculus
+Spi1	mmu-mir-21	NA	NA	Activation	24421386	literature	NA	M.musculus
+Spi1	mmu-mir-22	NA	NA	Activation	24421386	literature	NA	M.musculus
+Spi1	mmu-mir-223	NA	NA	Activation	24421386	literature	NA	M.musculus
+Spi1	mmu-mir-34a	NA	NA	Activation	24421386	literature	NA	M.musculus
+Srebf2	mmu-mir-182	NA	NA	Activation	23823476	literature	NA	M.musculus
+Srebf2	mmu-mir-183	NA	NA	Activation	23823476	literature	NA	M.musculus
+Srebf2	mmu-mir-96	NA	NA	Activation	23823476	literature	NA	M.musculus
+Srf	mmu-mir-1	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-103	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-106b	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-126	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-127	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-133a	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-133a	NA	NA	Activation	26512955	literature	NA	M.musculus
+Srf	mmu-mir-133a-1	NA	NA	Activation(feedback)	24068960	literature	NA	M.musculus
+Srf	mmu-mir-133a-1	NA	NA	Activation(feedback)	24513286	literature	NA	M.musculus
+Srf	mmu-mir-133a-2	NA	NA	Activation(feedback)	24058688	literature	NA	M.musculus
+Srf	mmu-mir-133a-2	NA	NA	Activation(feedback)	24513286	literature	NA	M.musculus
+Srf	mmu-mir-133b	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-143	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-143	NA	NA	Activation	19578358	literature	NA	M.musculus
+Srf	mmu-mir-145	NA	NA	Activation	19578358	literature	NA	M.musculus
+Srf	mmu-mir-151	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-1a-1	NA	NA	Activation	24058688	literature	NA	M.musculus
+Srf	mmu-mir-1a-1	NA	NA	Activation	24513286	literature	NA	M.musculus
+Srf	mmu-mir-1a-2	NA	NA	Activation	24068960	literature	NA	M.musculus
+Srf	mmu-mir-1a-2	NA	NA	Activation	24513286	literature	NA	M.musculus
+Srf	mmu-mir-208b	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-210	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-30c	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-342	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-376a	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-377	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-433	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-451	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-495	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-503	NA	NA	Activation	19004760	literature	NA	M.musculus
+Srf	mmu-mir-92b	NA	NA	Activation	19004760	literature	NA	M.musculus
+Stat1	mmu-mir-143	NA	NA	Repression	23980205	literature	NA	M.musculus
+Stat1	mmu-mir-145	NA	NA	Repression	23980205	literature	NA	M.musculus
+Stat3	mmu-mir-146b	NA	NA	Activation	27780686	literature	NA	M.musculus
+Stat3	mmu-mir-181b	NA	NA	Activation	27430527	literature	NA	M.musculus
+Stat3	mmu-mir-182	NA	NA	Activation	27332731	literature	NA	M.musculus
+Stat3	mmu-mir-183	NA	NA	Activation	27332731	literature	NA	M.musculus
+Stat3	mmu-mir-205	NA	NA	Activation	26170952	literature	NA	M.musculus
+Stat3	mmu-mir-21	NA	NA	Activation	27430527	literature	NA	M.musculus
+Stat3	mmu-mir-23a	NA	NA	Activation	22318941	literature	NA	M.musculus
+Stat3	mmu-mir-24-2	NA	NA	Activation	22318941	literature	NA	M.musculus
+Stat3	mmu-mir-27a	NA	NA	Activation	22318941	literature	NA	M.musculus
+Stat3	mmu-mir-96	NA	NA	Activation	27332731	literature	NA	M.musculus
+Stat5a	mmu-mir-146b	NA	NA	Activation	25236432	literature	NA	M.musculus
+Stat5a	mmu-mir-148a	NA	NA	Activation	25236432	literature	NA	M.musculus
+Stat5a	mmu-mir-193b	NA	NA	Activation	25236432	literature	NA	M.musculus
+Stat5a	mmu-mir-21	NA	NA	Activation	24497923	literature	NA	M.musculus
+Stat5a	mmu-mir-365-1	NA	NA	Activation	25236432	literature	NA	M.musculus
+Stat5a	mmu-mir-6365	NA	NA	Activation	25236432	literature	NA	M.musculus
+Stat6	mmu-mir-142	NA	NA	Activation	26436920	literature	NA	M.musculus
+Stat6	mmu-mir-146b	NA	NA	Activation	27780686	literature	NA	M.musculus
+Stat6	mmu-mir-342	NA	NA	Activation	27245778	literature	NA	M.musculus
+Tbx1	mmu-mir-96	NA	NA	Repression	25556186	literature	NA	M.musculus
+Tbx5	mmu-mir-218-1	NA	NA	Activation	23226307	literature	NA	M.musculus
+Tbx5	mmu-mir-335	NA	NA	Regulation	23226307	literature	NA	M.musculus
+Tbx5	mmu-mir-678	NA	NA	Regulation	23226307	literature	NA	M.musculus
+Tbx5	mmu-mir-719	NA	NA	Regulation	23226307	literature	NA	M.musculus
+Tcf3	mmu-mir-106a	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-19b-2	NA	NA	Repression(feedback)	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-20b	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-290a	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-290b	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-291a	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-291b	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-292a	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-292b	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-293	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-294	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-295	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-302a	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-302a	NA	NA	Repression	24040406	literature	NA	M.musculus
+Tcf3	mmu-mir-302b	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-302b	NA	NA	Repression	24040406	literature	NA	M.musculus
+Tcf3	mmu-mir-302c	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-302c	NA	NA	Repression	24040406	literature	NA	M.musculus
+Tcf3	mmu-mir-302d	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-302d	NA	NA	Repression	24040406	literature	NA	M.musculus
+Tcf3	mmu-mir-363	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-367	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-367	NA	NA	Repression	24040406	literature	NA	M.musculus
+Tcf3	mmu-mir-451	NA	NA	Activation	21464222	literature	NA	M.musculus
+Tcf3	mmu-mir-709	NA	NA	Activation	21464222	literature	NA	M.musculus
+Tcf3	mmu-mir-9-2	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tcf3	mmu-mir-92a-2	NA	NA	Repression	18692474	literature	NA	M.musculus
+Tgfb1	mmu-mir-153	NA	NA	Repression	26216407	literature	NA	M.musculus
+Thra	mmu-mir-133a-1	NA	NA	Activation(feedback)	25512392	literature	NA	M.musculus
+Thra	mmu-mir-1a-2	NA	NA	Activation	25512392	literature	NA	M.musculus
+Tlr4	mmu-mir-147	NA	NA	Regulation	19721002	literature	NA	M.musculus
+Tlr4	mmu-mir-26a	NA	NA	Repression	26376347	literature	NA	M.musculus
+Tnf	mmu-mir-125b	NA	NA	Activation	24336079	literature	NA	M.musculus
+Trim32	mmu-let-7	NA	NA	Activation	19269368	literature	NA	M.musculus
+Trp53	mmu-mir-100	NA	NA	Repression	25757558	literature	NA	M.musculus
+Trp53	mmu-mir-146a	NA	NA	Repression	25757558	literature	NA	M.musculus
+Trp53	mmu-mir-150	NA	NA	Repression	25757558	literature	NA	M.musculus
+Trp63	mmu-mir-34a	NA	NA	Repression	20090763	literature	NA	M.musculus
+Trp63	mmu-mir-34b	NA	NA	Repression	20090763	literature	NA	M.musculus
+Trp63	mmu-mir-34c	NA	NA	Repression	20090763	literature	NA	M.musculus
+Trp73	mmu-mir-34a	NA	NA	Activation	22160706	literature	NA	M.musculus
+Twist1	mmu-mir-148a	NA	NA	Activation	25486906	literature	NA	M.musculus
+Twist1	mmu-mir-214	NA	NA	Activation	26229009	literature	NA	M.musculus
+Xbp1	mmu-mir-148a	NA	NA	Activation	27055562	literature	NA	M.musculus
+Yap1	mmu-mir-206	NA	NA	Activation	26333362	literature	NA	M.musculus
+Yy1	mmu-mir-125a	NA	NA	Repression	26759236	literature	NA	M.musculus
+Yy1	mmu-mir-134	NA	NA	Repression	20622856	literature	NA	M.musculus
+Yy1	mmu-mir-206	NA	NA	Repression	19721712	literature	NA	M.musculus
+Yy1	mmu-mir-29b-2	NA	NA	Repression(feedback)	22438993	literature	NA	M.musculus
+Yy1	mmu-mir-29c	NA	NA	Repression(feedback)	22438993	literature	NA	M.musculus
+Yy1	mmu-mir-99b	NA	NA	Repression	26759236	literature	NA	M.musculus

@@ -1,4 +1,3 @@
-V1	V2	V3	V4	V5	V6	V7	V8	V9
 SOX9	hsa-mir-96	NA	NA	Repression	37717559	literature	HEK-293T	H.sapiens
 TFEB	hsa-mir-16	NA	NA	Activation	30591554	literature	human endothelial cells	H.sapiens
 MYC	hsa-mir-9-2	NA	NA	Activation	30795814	literature	U251	H.sapiens

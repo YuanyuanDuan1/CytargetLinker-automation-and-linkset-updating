@@ -1,0 +1,57 @@
+name: Download TransmiR Data
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allows manual triggering for testing
+
+jobs:
+  download-transmir:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Create data directory
+        run: mkdir -p data
+      
+      - name: Download TransmiR XLS files
+        run: |
+          # Download literature-curated data
+          curl -L -o data/transmir_literature_curated.xls \
+            "http://www.cuilab.cn/files/data/TransmiR/literature/literature.xls"
+          
+          # Download all TF-miRNA regulation data
+          curl -L -o data/transmir_all_regulations.xls \
+            "http://www.cuilab.cn/files/data/TransmiR/all/all.xls"
+          
+          # Download predicted TF-miRNA regulation data
+          curl -L -o data/transmir_predicted.xls \
+            "http://www.cuilab.cn/files/data/TransmiR/predict/predict.xls"
+          
+          # Add timestamp
+          echo "Downloaded on: $(date)" > data/download_timestamp.txt
+      
+      - name: List downloaded files
+        run: |
+          echo "Downloaded files:"
+          ls -lh data/
+      
+      - name: Commit and push if files changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update TransmiR data - $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: transmir-data-${{ github.run_number }}
+          path: data/
+          retention-days: 90

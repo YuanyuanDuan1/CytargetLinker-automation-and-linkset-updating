@@ -19,16 +19,33 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev
           
-      - name: Install R packages
+      - name: Install R packages with detailed logging
         run: |
-          Rscript -e 'install.packages(c("dplyr", "readr", "BiocManager"), repos="https://cloud.r-project.org")'
-          Rscript -e 'BiocManager::install("biomaRt", ask = FALSE, update = FALSE)'
+          Rscript -e '
+          # Install BiocManager
+          if (!requireNamespace("BiocManager", quietly = TRUE)) {
+            install.packages("BiocManager", repos="https://cloud.r-project.org")
+          }
+          cat("BiocManager installed successfully\n")
           
-      - name: Verify biomaRt installation
-        run: |
-          Rscript -e 'library(biomaRt); cat("biomaRt version:", as.character(packageVersion("biomaRt")), "\n")'
+          # Install dplyr and readr
+          install.packages(c("dplyr", "readr"), repos="https://cloud.r-project.org")
+          cat("dplyr and readr installed successfully\n")
+          
+          # Install biomaRt with verbose output
+          cat("Installing biomaRt...\n")
+          BiocManager::install("biomaRt", ask = FALSE, update = TRUE, force = TRUE)
+          cat("biomaRt installation completed\n")
+          
+          # Verify installation
+          if (requireNamespace("biomaRt", quietly = TRUE)) {
+            cat("✅ biomaRt version:", as.character(packageVersion("biomaRt")), "\n")
+          } else {
+            stop("biomaRt installation failed")
+          }
+          '
           
       - name: Filter Human and Mouse Data
         run: |
@@ -61,9 +78,11 @@ jobs:
       - name: Map miRNA Accessions and Names
         run: |
           Rscript - <<'RSCRIPT'
-          library(readr)
-          library(dplyr)
-          library(biomaRt)
+          suppressPackageStartupMessages({
+            library(readr)
+            library(dplyr)
+            library(biomaRt)
+          })
           
           output_dir <- "data/transmir"
           
@@ -77,23 +96,30 @@ jobs:
           unique_accessions <- unique(human_data[[accession_col]])
           cat("Found", length(unique_accessions), "unique human accessions\n")
           
-          # Query BioMart for human
+          # Query BioMart for human with error handling
           cat("Connecting to Ensembl BioMart for human...\n")
-          ensembl_human <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
-          human_results <- getBM(
-            attributes = c("mirbase_accession", "mirbase_id", "hgnc_symbol"),
-            filters = "mirbase_accession",
-            values = unique_accessions,
-            mart = ensembl_human
-          )
-          
-          # Merge with original data
-          colnames(human_data)[accession_col] <- "mirbase_accession"
-          human_enriched <- left_join(human_data, human_results, by = "mirbase_accession")
-          
-          write_tsv(human_enriched, file.path(output_dir, "human_literature_enriched.txt"))
-          cat("✅ Human enriched data saved with", nrow(human_enriched), "rows\n")
-          cat("   Mapped", sum(!is.na(human_enriched$mirbase_id)), "miRNA accessions\n")
+          tryCatch({
+            ensembl_human <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
+            human_results <- getBM(
+              attributes = c("mirbase_accession", "mirbase_id", "hgnc_symbol"),
+              filters = "mirbase_accession",
+              values = unique_accessions,
+              mart = ensembl_human
+            )
+            
+            # Merge with original data
+            colnames(human_data)[accession_col] <- "mirbase_accession"
+            human_enriched <- left_join(human_data, human_results, by = "mirbase_accession")
+            
+            write_tsv(human_enriched, file.path(output_dir, "human_literature_enriched.txt"))
+            cat("✅ Human enriched data saved with", nrow(human_enriched), "rows\n")
+            cat("   Mapped", sum(!is.na(human_enriched$mirbase_id)), "miRNA accessions\n")
+          }, error = function(e) {
+            cat("⚠️ Error mapping human miRNAs:", conditionMessage(e), "\n")
+            cat("Saving original data without enrichment\n")
+            colnames(human_data)[accession_col] <- "mirbase_accession"
+            write_tsv(human_data, file.path(output_dir, "human_literature_enriched.txt"))
+          })
           
           # Process Mouse data
           cat("\nProcessing mouse miRNA mappings...\n")
@@ -103,23 +129,30 @@ jobs:
           unique_accessions_mouse <- unique(mouse_data[[accession_col]])
           cat("Found", length(unique_accessions_mouse), "unique mouse accessions\n")
           
-          # Query BioMart for mouse
+          # Query BioMart for mouse with error handling
           cat("Connecting to Ensembl BioMart for mouse...\n")
-          ensembl_mouse <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
-          mouse_results <- getBM(
-            attributes = c("mirbase_accession", "mirbase_id", "mgi_symbol"),
-            filters = "mirbase_accession",
-            values = unique_accessions_mouse,
-            mart = ensembl_mouse
-          )
-          
-          # Merge with original data
-          colnames(mouse_data)[accession_col] <- "mirbase_accession"
-          mouse_enriched <- left_join(mouse_data, mouse_results, by = "mirbase_accession")
-          
-          write_tsv(mouse_enriched, file.path(output_dir, "mouse_literature_enriched.txt"))
-          cat("✅ Mouse enriched data saved with", nrow(mouse_enriched), "rows\n")
-          cat("   Mapped", sum(!is.na(mouse_enriched$mirbase_id)), "miRNA accessions\n")
+          tryCatch({
+            ensembl_mouse <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
+            mouse_results <- getBM(
+              attributes = c("mirbase_accession", "mirbase_id", "mgi_symbol"),
+              filters = "mirbase_accession",
+              values = unique_accessions_mouse,
+              mart = ensembl_mouse
+            )
+            
+            # Merge with original data
+            colnames(mouse_data)[accession_col] <- "mirbase_accession"
+            mouse_enriched <- left_join(mouse_data, mouse_results, by = "mirbase_accession")
+            
+            write_tsv(mouse_enriched, file.path(output_dir, "mouse_literature_enriched.txt"))
+            cat("✅ Mouse enriched data saved with", nrow(mouse_enriched), "rows\n")
+            cat("   Mapped", sum(!is.na(mouse_enriched$mirbase_id)), "miRNA accessions\n")
+          }, error = function(e) {
+            cat("⚠️ Error mapping mouse miRNAs:", conditionMessage(e), "\n")
+            cat("Saving original data without enrichment\n")
+            colnames(mouse_data)[accession_col] <- "mirbase_accession"
+            write_tsv(mouse_data, file.path(output_dir, "mouse_literature_enriched.txt"))
+          })
           RSCRIPT
           
       - name: Commit and push filtered results

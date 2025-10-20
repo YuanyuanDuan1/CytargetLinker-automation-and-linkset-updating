@@ -63,20 +63,38 @@ jobs:
         if: steps.compare.outputs.should_download == 'true'
         run: mkdir -p data/transmir
       
-      - name: Download literature-curated data (Human and Mouse TXT)
+      - name: Download literature-curated data (all species TXT)
         if: steps.compare.outputs.should_download == 'true'
         run: |
           echo "Detecting latest TransmiR literature-curated data URL..."
-          BASE_URL="http://www.cuilab.cn/files/"
           
-          # Fetch all possible download URLs and extract the one matching db_literaturev*.txt
+          # Fetch TransmiR page and try to find db_literaturev*.txt dynamically
           DOWNLOAD_PAGE=$(curl -s http://www.cuilab.cn/transmir)
           DOWNLOAD_URL=$(echo "$DOWNLOAD_PAGE" | grep -oP 'http://www\.cuilab\.cn/files/transmir[0-9]+/download/db_literaturev[0-9]+\.txt' | head -1)
           
+          # Fallback if not found
           if [ -z "$DOWNLOAD_URL" ]; then
-            echo "Failed to auto-detect TransmiR literature download URL, using fallback..."
-            DOWNLOAD_URL="http://www.cuilab.cn/files/transmir3/download.txt"
+            echo "⚠️ Could not auto-detect download URL, using fallback..."
+            DOWNLOAD_URL="http://www.cuilab.cn/files/transmir3/download/db_literaturev3.txt"
           fi
+          
+          echo "📥 Downloading from: $DOWNLOAD_URL"
+          mkdir -p data/transmir
+          
+          # Download the data file (contains all species)
+          curl -L -o data/transmir/db_literature_all_species.txt "$DOWNLOAD_URL" || {
+            echo "❌ Failed to download TransmiR data"
+            exit 1
+          }
+          
+          # Write metadata file
+          {
+            echo "TransmiR Version: ${{ steps.transmir_version.outputs.version }}"
+            echo "Downloaded on: $(date)"
+            echo "Previous CyTargetLinker version: ${{ steps.cytargetlinker_version.outputs.version }}"
+            echo "Source URL: $DOWNLOAD_URL"
+          } > data/transmir/version.txt
+
       
           echo "TransmiR Version: ${{ steps.transmir_version.outputs.version }}" > data/transmir/version.txt
           echo "Downloaded on

@@ -1,3 +1,4 @@
 TransmiR Version: 3.0
-Downloaded on: Mon Oct 20 09:05:22 UTC 2025
+Downloaded on: Mon Oct 20 09:31:33 UTC 2025
 Previous CyTargetLinker version: 1.2
+Source URL: http://www.cuilab.cn/files/transmir3/download/db_literaturev3.txt

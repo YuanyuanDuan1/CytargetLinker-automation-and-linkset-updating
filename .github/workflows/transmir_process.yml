@@ -1,0 +1,61 @@
+name: Analyze TransmiR Data with R
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/transmir/db_literature_all_species.txt'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.1'
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("dplyr","readr"), repos="https://cloud.r-project.org")'
+
+      - name: Filter Human and Mouse Data
+        run: |
+          Rscript - <<'RSCRIPT'
+          library(readr)
+          library(dplyr)
+
+          input_file <- "data/transmir/db_literature_all_species.txt"
+          output_dir <- "data/transmir"
+          dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
+          # Read file (tab-separated, no header)
+          df <- read.delim(input_file, header = FALSE, sep = "\t", quote = "", fill = TRUE, stringsAsFactors = FALSE)
+
+          # Assume species column is the last
+          species_col <- ncol(df)
+
+          # Filter Human (H.sapiens)
+          human <- subset(df, df[[species_col]] == "H.sapiens")
+          write_tsv(human, file.path(output_dir, "human_literature.txt"))
+          cat("✅ Human data saved to data/transmir/human_literature.txt with", nrow(human), "rows\n")
+
+          # Filter Mouse (M.musculus)
+          mouse <- subset(df, df[[species_col]] == "M.musculus")
+          write_tsv(mouse, file.path(output_dir, "mouse_literature.txt"))
+          cat("✅ Mouse data saved to data/transmir/mouse_literature.txt with", nrow(mouse), "rows\n")
+          RSCRIPT
+
+      - name: Commit and push filtered results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/transmir/human_literature.txt data/transmir/mouse_literature.txt
+          git diff --staged --quiet || git commit -m "Add filtered human and mouse TransmiR data - $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

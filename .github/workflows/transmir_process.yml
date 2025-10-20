@@ -1,61 +1,120 @@
 name: Analyze TransmiR Data with R
-
 on:
   workflow_dispatch:
   push:
     paths:
       - 'data/transmir/db_literature_all_species.txt'
-
 jobs:
   analyze:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3.1'
-
+          
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("dplyr","readr"), repos="https://cloud.r-project.org")'
-
+          Rscript -e 'install.packages(c("dplyr", "readr", "BiocManager"), repos="https://cloud.r-project.org")'
+          Rscript -e 'BiocManager::install(c("biomaRt", "miRBaseConverter"), ask = FALSE, update = FALSE)'
+          
       - name: Filter Human and Mouse Data
         run: |
           Rscript - <<'RSCRIPT'
           library(readr)
           library(dplyr)
-
+          
           input_file <- "data/transmir/db_literature_all_species.txt"
           output_dir <- "data/transmir"
           dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
-
+          
           # Read file (tab-separated, no header)
-          df <- read.delim(input_file, header = FALSE, sep = "\t", quote = "", fill = TRUE, stringsAsFactors = FALSE)
-
+          df <- read.delim(input_file, header = FALSE, sep = "\t", quote = "", 
+                          fill = TRUE, stringsAsFactors = FALSE)
+          
           # Assume species column is the last
           species_col <- ncol(df)
-
+          
           # Filter Human (H.sapiens)
           human <- subset(df, df[[species_col]] == "H.sapiens")
-          write_tsv(human, file.path(output_dir, "human_literature.txt"))
-          cat("✅ Human data saved to data/transmir/human_literature.txt with", nrow(human), "rows\n")
-
+          write_tsv(human, file.path(output_dir, "human_literature.txt"), col_names = FALSE)
+          cat("✅ Human data saved with", nrow(human), "rows\n")
+          
           # Filter Mouse (M.musculus)
           mouse <- subset(df, df[[species_col]] == "M.musculus")
-          write_tsv(mouse, file.path(output_dir, "mouse_literature.txt"))
-          cat("✅ Mouse data saved to data/transmir/mouse_literature.txt with", nrow(mouse), "rows\n")
+          write_tsv(mouse, file.path(output_dir, "mouse_literature.txt"), col_names = FALSE)
+          cat("✅ Mouse data saved with", nrow(mouse), "rows\n")
           RSCRIPT
-
+          
+      - name: Map miRNA Accessions and Names
+        run: |
+          Rscript - <<'RSCRIPT'
+          library(readr)
+          library(dplyr)
+          library(biomaRt)
+          
+          output_dir <- "data/transmir"
+          
+          # Process Human data
+          cat("Processing human miRNA mappings...\n")
+          human_data <- read_tsv(file.path(output_dir, "human_literature.txt"), 
+                                col_names = FALSE, show_col_types = FALSE)
+          
+          # Assuming column 1 contains miRNA accession (adjust if different)
+          accession_col <- 1
+          unique_accessions <- unique(human_data[[accession_col]])
+          
+          # Query BioMart for human
+          ensembl_human <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
+          human_results <- getBM(
+            attributes = c("mirbase_accession", "mirbase_id", "hgnc_symbol"),
+            filters = "mirbase_accession",
+            values = unique_accessions,
+            mart = ensembl_human
+          )
+          
+          # Merge with original data
+          colnames(human_data)[accession_col] <- "mirbase_accession"
+          human_enriched <- left_join(human_data, human_results, by = "mirbase_accession")
+          
+          write_tsv(human_enriched, file.path(output_dir, "human_literature_enriched.txt"))
+          cat("✅ Human enriched data saved with", nrow(human_enriched), "rows\n")
+          cat("   Mapped", sum(!is.na(human_enriched$mirbase_id)), "miRNA accessions\n")
+          
+          # Process Mouse data
+          cat("\nProcessing mouse miRNA mappings...\n")
+          mouse_data <- read_tsv(file.path(output_dir, "mouse_literature.txt"), 
+                                col_names = FALSE, show_col_types = FALSE)
+          
+          unique_accessions_mouse <- unique(mouse_data[[accession_col]])
+          
+          # Query BioMart for mouse
+          ensembl_mouse <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
+          mouse_results <- getBM(
+            attributes = c("mirbase_accession", "mirbase_id", "mgi_symbol"),
+            filters = "mirbase_accession",
+            values = unique_accessions_mouse,
+            mart = ensembl_mouse
+          )
+          
+          # Merge with original data
+          colnames(mouse_data)[accession_col] <- "mirbase_accession"
+          mouse_enriched <- left_join(mouse_data, mouse_results, by = "mirbase_accession")
+          
+          write_tsv(mouse_enriched, file.path(output_dir, "mouse_literature_enriched.txt"))
+          cat("✅ Mouse enriched data saved with", nrow(mouse_enriched), "rows\n")
+          cat("   Mapped", sum(!is.na(mouse_enriched$mirbase_id)), "miRNA accessions\n")
+          RSCRIPT
+          
       - name: Commit and push filtered results
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/transmir/human_literature.txt data/transmir/mouse_literature.txt
-          git diff --staged --quiet || git commit -m "Add filtered human and mouse TransmiR data - $(date +'%Y-%m-%d')"
+          git add data/transmir/*.txt
+          git diff --staged --quiet || git commit -m "Add filtered and enriched TransmiR data - $(date +'%Y-%m-%d')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
